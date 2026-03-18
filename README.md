@@ -56,6 +56,7 @@ English Sentence → Encoder (GRU) → Context Vector
 ```
 .
 ├── seq2seq.py          # 主程序（训练 + 推理 + 可视化）
+├── demo.py             # 训练入口
 ├── eng-fra-v2.txt     # 英法平行语料
 ├── save_model/        # 训练好的模型参数
 ├── ai23_seq2seq_loss.png  # loss 曲线图
