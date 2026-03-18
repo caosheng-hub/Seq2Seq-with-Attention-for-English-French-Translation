@@ -59,6 +59,8 @@ English Sentence → Encoder (GRU) → Context Vector
 ├── eng-fra-v2.txt     # 英法平行语料
 ├── save_model/        # 训练好的模型参数
 ├── ai23_seq2seq_loss.png  # loss 曲线图
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
@@ -212,7 +214,7 @@ context = atten_weight * V
 ✅ 从零实现 Seq2Seq
 ✅ Attention 手写实现（非调用库）
 ✅ 支持可视化
-✅ 代码结构清晰，适合教学
+✅ 代码结构清晰
 
 
 
